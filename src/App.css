@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.validate span {
+    color: #cf6161;
+    width: 16%;
+    height: 5px;
+    border-radius: 5px;
+    background: gray;
+}
+
+.wrong {
+    background: red!important;
+}
+.right {
+    background: green!important;
+}
+
+.validate {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
